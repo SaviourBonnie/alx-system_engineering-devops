@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | sort -d -f --version-sort | tr '\n' ',' | sed 's/,$/\n/'
+ls -pla --group-directories-first | grep -v '^total' | sed -E 's/(\w+) +/\1,/g' | tr -d '\n'
