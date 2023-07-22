@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pla --group-directories-first | grep -v '^total' | sed -E 's/(\w+) +/\1,/g' | tr -d '\n'
+ls -ap | sort -df | tr '\n' ', ' | sed 's/\(.*\),/\1\n/'
