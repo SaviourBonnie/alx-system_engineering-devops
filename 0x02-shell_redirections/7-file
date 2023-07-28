@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Best School" > '*\''"Best School"'\'*'$?******:)'   # This line creates the file with the desired content
-echo "File created successfully!" 
+echo 'Best School' > *\`'"Best School"'\`*$?\*\*\*\*\*:) && echo 'File created successfully' 
