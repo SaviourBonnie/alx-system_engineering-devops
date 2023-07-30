@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p BASH BASHOPTS
+compgen -v | paste -sd " " && echo && compgen -e | paste -sd " " && echo && compgen -A function
