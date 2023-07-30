@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -v | paste -sd " " && echo && compgen -e | paste -sd " " && echo && compgen -A function
+compgen -v && compgen -e && compgen -A function
